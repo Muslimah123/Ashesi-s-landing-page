@@ -93,29 +93,29 @@
 </body>
 
 <footer>
-    <h1>Quick LinkS</h1>
-    <div class="row">
+     <h1 class="special"> Quick Links</h1>
+  <div class="row">
         <div class=" container ">
             <div>
-                <h4>Univeristy</h4>
-                <p>Webmail</p>
-                <p>Student Information System</p>
-                <p>Academic Calendar</p>
-                <p> Institutional Repository</p>
+                <h4 class="special">Univeristy</h4>
+                <p class="special"><a href="">Webmail</a></p>
+                <p class="special"><a href="">Student Information System</a></p>
+                <p class="special"><a href="">Academic Calendar</a></p>
+                <p class="special"><a href=""> Institutional Repository</a></p>
             </div>
             <div>
-                <h4>For Business</h4>
-                <p>Career Services Office</p>
-                <p>Recruit Ashesi Students</p>
-                <p> Job Openings</p>
-                <p> Support Ashesi</p>
+                <h4 class="special">For Business</h4>
+                <p class="special"><a href="">Career Services Office</a></p>
+                <p class="special"><a href="">Recruit Ashesi Students</a></p>
+                <p class="special"> <a href="">Job Openings</a></p>
+                <p class="special"><a href=""> Support Ashesi</a></p>
             </div>
             <div>
-                <h4>New Here?</h4>
-                <p>Our Campus</p>
-                <p>Alumni Stories</p>
-                <p> campus life Blog</p>
-                <p> Awards & Recognition</p>
+                <h4 class="special">New Here?</h4>
+                <p class="special"><a href="">Our Campus</a></p>
+                <p class="special"><a href="">Alumni Stories</a></p>
+                <p class="special"> <a href="">campus life Blog</a></p>
+                <p class="special"><a href=""> Awards & Recognition</a></p>
             </div>
 
             <div class="search-container ">
@@ -135,33 +135,33 @@
         </div>
 
         <div>
-            <h1 id="cont">CONTACT US </h1>
+            <h1 class="special">Contact Us </h1>
             <div class="contain ">
                 <div>
-                    <h4>Street Address</h4>
-                    <p>1 University Avenue</p>
-                    <p>Berekuso,E/R
+                    <h4 class="special">Street Address</h4>
+                    <p class="special"> 1 University Avenue</p>
+                    <p class="special">Berekuso,E/R
                         <a href=" ">(see map Here)</a>
                     </p>
 
                 </div>
                 <div>
-                    <h4>Postal Address</h4>
-                    <p>PMB CT3,</p>
-                    <p>Cantoments,Accra</p>
+                    <h4 class="special">Postal Address</h4>
+                    <p class="special">PMB CT3,</p>
+                    <p class="special">Cantoments,Accra</p>
 
                 </div>
                 <div>
-                    <h4>Phone & Email</h4>
-                    <p>(T) +233 302610 330</p>
-                    <p>(E)info@ashesi.edu.gh</p>
+                    <h4 class="special">Phone & Email</h4>
+                    <p class="special">(T) +233 302610 330</p>
+                    <p class="special">(E)info@ashesi.edu.gh</p>
 
                 </div>
                 <div>
-                    <h4>See Also</h4>
-                    <p>+ Ashesi foundationp>
-                        <p>+ Climate Innovation Centre</p>
-                        <p>+ Education Collaborative</p>
+                    <h4 class="special">See Also</h4>
+                  <p class="special"><a href="">+ Ashesi foundation</a></p>
+                        <p class="special"><a href="">+ Climate Innovation Centre</a></p>
+                        <p class="special"><a href="">+ Education Collaborative</a></p>
                 </div>
 
             </div>
@@ -175,138 +175,147 @@
 </html>
 
 #Css file
-                                                       body {
-                                                            margin: 0px;
-                                                            padding: 0px;
-                                                            font-family: sans-serif;
+ body {
+      margin: 0px;
+      padding: 0px;
+      font-family: sans-serif;
+}
+                                                        
+                                                        
+a {
+ text-decoration: none;
+}
+                                                        
+header div {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+                                                        
+header nav {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+                                                        
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 18px;
+}
+                                                        
+nav a:hover {
+  border-bottom: 3px solid #b30000;
+  padding-bottom: 10px;
+}
+                                                        
+#news {
+  background-color: #444;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+                                                        
+#news a {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+                                                        
+p {
+  font-style: norml;
+  text-align: center;
+}
+                                                        
+#Report {
+  background-color: #b30000;
+   color: white;
+   padding: 20px;
+   margin: 200px;
+  }
+                                                        
+  #link {
+  font-size: 50px;
+   color: black;
+   text-align: center;
+   }
+                                                        
+     #link a:hover {
+       color: #b30000;
                                                         }
                                                         
-                                                        a {
-                                                            text-decoration: none;
-                                                        }
+#fig {
+  align-items: center;
+  text-decoration-color: rgb(68, 68, 68);
+  background-color: #e8f1eac2;
+  padding: 0px;
+  margin: 0px;
+}
                                                         
-                                                        header div {
-                                                            display: flex;
-                                                            justify-content: center;
-                                                            padding: 20px;
-                                                        }
+#head {
+  color: #b30000;
+}
                                                         
-                                                        header nav {
-                                                            margin-left: 30px;
-                                                            margin-right: 30px;
-                                                        }
+#fig a:hover {
+  color: #b30000;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 18px;
+  display: flex;
+}
+/* Clearfix (clear floats) */
                                                         
-                                                        nav a {
-                                                            text-decoration: none;
-                                                            color: black;
-                                                            margin-left: 10px;
-                                                            margin-right: 10px;
-                                                            padding: 18px;
-                                                        }
-                                                        
-                                                        nav a:hover {
-                                                            border-bottom: 3px solid #b30000;
-                                                            padding-bottom: 10px;
-                                                        }
-                                                        
-                                                        #news {
-                                                            background-color: #444;
-                                                            display: flex;
-                                                            align-items: center;
-                                                            color: white;
-                                                            justify-content: center;
-                                                        }
-                                                        
-                                                        #news a {
-                                                            color: white;
-                                                            margin-left: 10px;
-                                                            margin-right: 10px;
-                                                        }
-                                                        
-                                                        p {
-                                                            font-style: norml;
-                                                            text-align: center;
-                                                        }
-                                                        
-                                                        #Report {
-                                                            background-color: #b30000;
-                                                            color: white;
-                                                            padding: 20px;
-                                                            margin: 200px;
-                                                        }
-                                                        
-                                                        #link {
-                                                            font-size: 50px;
-                                                            color: black;
-                                                            text-align: center;
-                                                        }
-                                                        
-                                                        #link a:hover {
-                                                            color: #b30000;
-                                                        }
-                                                        
-                                                        #fig {
-                                                            align-items: center;
-                                                            text-decoration-color: rgb(68, 68, 68);
-                                                            background-color: #e8f1eac2;
-                                                            padding: 0px;
-                                                            margin: 0px;
-                                                        }
-                                                        
-                                                        #head {
-                                                            color: #b30000;
-                                                        }
-                                                        
-                                                        #fig a:hover {
-                                                            color: #b30000;
-                                                        }
-                                                        
-                                                        .column {
-                                                            float: left;
-                                                            width: 33.33%;
-                                                            padding: 18px;
-                                                            display: flex;
-                                                        }
-                                                        /* Clearfix (clear floats) */
-                                                        
-                                                        .row::after {
-                                                            content: "";
-                                                            clear: both;
-                                                            display: table;
-                                                        }
-                                                        
-                                                        footer {
-                                                            display: flex;
-                                                            justify-content: center;
-                                                            padding: 20px;
-                                                            background-color: black;
-                                                            color: blanchedalmond;
-                                                        }
-                                                        
-                                                        .container {
-                                                            justify-content: center;
-                                                            margin-left: 60px;
-                                                            margin-right: 60px;
-                                                            padding: 30px;
-                                                            display: flex;
-                                                        }
-                                                        
-                                                        .search-container {
-                                                            padding: 20px;
-                                                            margin: 30px;
-                                                        }
-                                                        
-                                                        .contain {
-                                                            align-items: flex-start;
-                                                            display: flex;
-                                                            justify-content: center;
-                                                            margin-left: 80px;
-                                                            margin-right: 80px;
-                                                            padding: 30px;
-                                                        }
-                                                        
-                                                        #cont {
-                                                            justify-content: left;
-                                                            margin-left: 0px;
-                                                            margin-right: 0px;
-                                                        }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: black;
+  color: blanchedalmond;
+}
+
+.container {
+  justify-content: center;
+  padding: 30px;
+  display: flex;
+ 
+}
+
+.search-container {
+  padding: 20px;
+  margin: 30px;
+}
+
+.contain {
+  align-items: flex-start;
+  display: flex;
+  padding: 30px;
+}
+
+
+
+
+.special{
+  justify-content:center;
+  foat:center;
+  margin-top:10px;
+  margin-right:100px;
+  margin-left:40px;
+  color:white;
+  text-decoration:none;
+  
+}
+.special p:hover {
+  background-color:white;
+}
+                                                  
