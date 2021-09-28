@@ -173,3 +173,140 @@
 </html>
 
 </html>
+
+#Css file
+                                                       body {
+                                                            margin: 0px;
+                                                            padding: 0px;
+                                                            font-family: sans-serif;
+                                                        }
+                                                        
+                                                        a {
+                                                            text-decoration: none;
+                                                        }
+                                                        
+                                                        header div {
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            padding: 20px;
+                                                        }
+                                                        
+                                                        header nav {
+                                                            margin-left: 30px;
+                                                            margin-right: 30px;
+                                                        }
+                                                        
+                                                        nav a {
+                                                            text-decoration: none;
+                                                            color: black;
+                                                            margin-left: 10px;
+                                                            margin-right: 10px;
+                                                            padding: 18px;
+                                                        }
+                                                        
+                                                        nav a:hover {
+                                                            border-bottom: 3px solid #b30000;
+                                                            padding-bottom: 10px;
+                                                        }
+                                                        
+                                                        #news {
+                                                            background-color: #444;
+                                                            display: flex;
+                                                            align-items: center;
+                                                            color: white;
+                                                            justify-content: center;
+                                                        }
+                                                        
+                                                        #news a {
+                                                            color: white;
+                                                            margin-left: 10px;
+                                                            margin-right: 10px;
+                                                        }
+                                                        
+                                                        p {
+                                                            font-style: norml;
+                                                            text-align: center;
+                                                        }
+                                                        
+                                                        #Report {
+                                                            background-color: #b30000;
+                                                            color: white;
+                                                            padding: 20px;
+                                                            margin: 200px;
+                                                        }
+                                                        
+                                                        #link {
+                                                            font-size: 50px;
+                                                            color: black;
+                                                            text-align: center;
+                                                        }
+                                                        
+                                                        #link a:hover {
+                                                            color: #b30000;
+                                                        }
+                                                        
+                                                        #fig {
+                                                            align-items: center;
+                                                            text-decoration-color: rgb(68, 68, 68);
+                                                            background-color: #e8f1eac2;
+                                                            padding: 0px;
+                                                            margin: 0px;
+                                                        }
+                                                        
+                                                        #head {
+                                                            color: #b30000;
+                                                        }
+                                                        
+                                                        #fig a:hover {
+                                                            color: #b30000;
+                                                        }
+                                                        
+                                                        .column {
+                                                            float: left;
+                                                            width: 33.33%;
+                                                            padding: 18px;
+                                                            display: flex;
+                                                        }
+                                                        /* Clearfix (clear floats) */
+                                                        
+                                                        .row::after {
+                                                            content: "";
+                                                            clear: both;
+                                                            display: table;
+                                                        }
+                                                        
+                                                        footer {
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            padding: 20px;
+                                                            background-color: black;
+                                                            color: blanchedalmond;
+                                                        }
+                                                        
+                                                        .container {
+                                                            justify-content: center;
+                                                            margin-left: 60px;
+                                                            margin-right: 60px;
+                                                            padding: 30px;
+                                                            display: flex;
+                                                        }
+                                                        
+                                                        .search-container {
+                                                            padding: 20px;
+                                                            margin: 30px;
+                                                        }
+                                                        
+                                                        .contain {
+                                                            align-items: flex-start;
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            margin-left: 80px;
+                                                            margin-right: 80px;
+                                                            padding: 30px;
+                                                        }
+                                                        
+                                                        #cont {
+                                                            justify-content: left;
+                                                            margin-left: 0px;
+                                                            margin-right: 0px;
+                                                        }
